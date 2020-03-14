@@ -185,7 +185,7 @@
       </div>
 
       <?php
-      // the_content();
+      the_content();
       ?>
 
 		</div><!-- .entry-content -->
