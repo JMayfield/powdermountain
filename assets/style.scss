@@ -1,0 +1,209 @@
+/*
+Theme Name:     Powder Mountain
+Theme URI:      https://github.com/JMayfield/Powder-Mountain-WordPress-Theme
+Description: The Powder Mountain theme is designed to take full advantage of the flexibility of the block editor, with the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give Powder Mountain a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on the site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author:         Jeff Mayfield
+Textdomain:     powdermountain
+Author URI:     https://jeffmayfield.io/
+Template:       twentytwenty
+
+Version:        1.0
+*/
+
+
+/* Primary Menu ---------------------------- */
+
+.primary-menu a {
+  text-decoration: none;
+}
+
+.primary-menu>li>a {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+}
+
+.primary-menu li.current-menu-item>a,
+.primary-menu li.current-menu-item>.link-icon-wrapper>a {
+  text-decoration: none;
+}
+
+
+/* Base List Widget -------------------------- */
+
+.widget_archive a,
+.widget_categories a,
+.widget_pages a,
+.widget_meta a,
+.widget_nav_menu a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 0.8em;
+}
+
+
+/* Footer Top -------------------------------- */
+
+ul.footer-social li {
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+
+/* Footer Widgets ---------------------------- */
+
+.footer-widgets-outer-wrapper {
+  border-bottom: 0;
+}
+
+.footer-widgets-outer-wrapper .heading-size-3 {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+}
+
+
+/* Footer Bottom ----------------------------- */
+
+#site-footer {
+  background-color: #000 !important;
+}
+
+.footer-copyright {
+  font-weight: 400;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+
+/* Home Get Started ------------------ */
+
+.home-get-started {
+  max-width: 115rem !important;
+  
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 6rem auto;
+  }
+}
+
+
+/* Home Community Posts ------------------ */
+
+.home-community-posts {
+  max-width: 115rem !important;
+
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 6rem auto;
+  }
+
+  .community-posts-wrapper {}
+  .community-posts-hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    
+    .community-hero-img {
+      width: calc(50% - 20px);
+    }
+
+    .community-post {
+      width: calc(50% - 20px);
+
+      h5 {
+        position: relative;
+        margin: 0.65rem auto 2.5rem;
+
+        &:after {
+          content: '';
+          width: 30%;
+          height: 1px;
+          background: #000;
+          position: absolute;
+          bottom: -1em;
+          left: 0;
+        }
+      }
+
+      p {
+        font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 0.85em;
+        padding-top: 2.5rem;
+        margin: 0 0 2.5rem;
+      }
+
+      .community-link {
+        width: 23%;
+        display: block;
+        border: 2px solid black;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-size: 0.65em;
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .community-posts-secondary {
+    display: flex;
+    justify-content: space-between;
+
+    .community-post {
+
+      &:nth-of-type(1) {
+        padding-right: 30px;
+      }
+
+      &:nth-of-type(2) {
+        padding: 0 30px;
+      }
+
+      &:nth-of-type(3) {
+        padding-left: 30px;
+      }
+
+      h5 {
+        text-align: center;
+        position: relative;
+
+        &:after {
+          content: '';
+          width: 30%;
+          height: 1px;
+          background: #000;
+          position: absolute;
+          bottom: -1em;
+          left: calc(50% - 15%);
+        }
+      }
+
+      p {
+        font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 0.85em;
+        padding-top: 2.5rem;
+        margin: 2.5rem 0.85rem 2.5rem;
+        text-align: center;
+      }
+
+      .community-link {
+        width: 37%;
+        display: block;
+        margin: 0 auto;
+        border: 2px solid black;
+        text-align: center;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-size: 0.65em;
+        font-weight: 600;
+      }
+    }
+  }
+}

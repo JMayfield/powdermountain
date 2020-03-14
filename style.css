@@ -10,3 +10,67 @@ Template:       twentytwenty
 
 Version:        1.0
 */
+/* Primary Menu ---------------------------- */
+.primary-menu a { text-decoration: none; }
+
+.primary-menu > li > a { font-weight: 700; letter-spacing: 1px; font-size: 1.1em; }
+
+.primary-menu li.current-menu-item > a, .primary-menu li.current-menu-item > .link-icon-wrapper > a { text-decoration: none; }
+
+/* Base List Widget -------------------------- */
+.widget_archive a, .widget_categories a, .widget_pages a, .widget_meta a, .widget_nav_menu a { font-weight: 400; text-decoration: none; color: #fff !important; font-size: 0.8em; }
+
+/* Footer Top -------------------------------- */
+ul.footer-social li { margin: 0 0 0.5rem 0.5rem; }
+
+/* Footer Widgets ---------------------------- */
+.footer-widgets-outer-wrapper { border-bottom: 0; }
+
+.footer-widgets-outer-wrapper .heading-size-3 { font-size: 2.1rem; text-transform: uppercase; }
+
+/* Footer Bottom ----------------------------- */
+#site-footer { background-color: #000 !important; }
+
+.footer-copyright { font-weight: 400; font-size: 0.9em; margin: 0; }
+
+/* Home Get Started ------------------ */
+.home-get-started { max-width: 115rem !important; }
+
+.home-get-started h2 { text-transform: uppercase; text-align: center; margin: 6rem auto; }
+
+/* Home Community Posts ------------------ */
+.home-community-posts { max-width: 115rem !important; }
+
+.home-community-posts h2 { text-transform: uppercase; text-align: center; margin: 6rem auto; }
+
+.home-community-posts .community-posts-hero { display: flex; justify-content: space-between; margin-bottom: 60px; }
+
+.home-community-posts .community-posts-hero .community-hero-img { width: calc(50% - 20px); }
+
+.home-community-posts .community-posts-hero .community-post { width: calc(50% - 20px); }
+
+.home-community-posts .community-posts-hero .community-post h5 { position: relative; margin: 0.65rem auto 2.5rem; }
+
+.home-community-posts .community-posts-hero .community-post h5:after { content: ''; width: 30%; height: 1px; background: #000; position: absolute; bottom: -1em; left: 0; }
+
+.home-community-posts .community-posts-hero .community-post p { font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; font-size: 0.85em; padding-top: 2.5rem; margin: 0 0 2.5rem; }
+
+.home-community-posts .community-posts-hero .community-post .community-link { width: 23%; display: block; border: 2px solid black; padding: 1rem 2rem; text-decoration: none; color: black; text-transform: uppercase; font-size: 0.65em; text-align: center; font-weight: 600; }
+
+.home-community-posts .community-posts-secondary { display: flex; justify-content: space-between; }
+
+.home-community-posts .community-posts-secondary .community-post:nth-of-type(1) { padding-right: 30px; }
+
+.home-community-posts .community-posts-secondary .community-post:nth-of-type(2) { padding: 0 30px; }
+
+.home-community-posts .community-posts-secondary .community-post:nth-of-type(3) { padding-left: 30px; }
+
+.home-community-posts .community-posts-secondary .community-post h5 { text-align: center; position: relative; }
+
+.home-community-posts .community-posts-secondary .community-post h5:after { content: ''; width: 30%; height: 1px; background: #000; position: absolute; bottom: -1em; left: calc(50% - 15%); }
+
+.home-community-posts .community-posts-secondary .community-post p { font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; font-size: 0.85em; padding-top: 2.5rem; margin: 2.5rem 0.85rem 2.5rem; text-align: center; }
+
+.home-community-posts .community-posts-secondary .community-post .community-link { width: 37%; display: block; margin: 0 auto; border: 2px solid black; text-align: center; padding: 1rem 2rem; text-decoration: none; color: black; text-transform: uppercase; font-size: 0.65em; font-weight: 600; }
+
+/*# sourceMappingURL=style.css.map */
