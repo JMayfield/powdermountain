@@ -24,6 +24,8 @@ Version:        1.0
 @media (max-width: 782px) { .admin-bar.overlay-header #site-header, .template-powder-mountain-homepage #site-header { top: 46px; } }
 
 /* Primary Menu ---------------------------- */
+@media (min-width: 1000px) { .header-inner { align-items: center; display: flex; justify-content: space-between; padding: 2rem 0; } }
+
 .primary-menu > li > a { color: #fff !important; }
 
 .primary-menu .icon { color: #fff !important; }
@@ -37,12 +39,12 @@ Version:        1.0
 /* Header Toggles ---------------------------- */
 .header-inner .toggle path { fill: #fff; }
 
+.header-inner .toggle-wrapper::before { background-color: #fff !important; width: 0.2rem; }
+
 /* Powder Mountain Homepage ---------------- */
 .template-powder-mountain-homepage .post-inner { padding-top: 0 !important; }
 
 .template-powder-mountain-homepage .entry-content > .alignfull { margin-top: 0 !important; }
-
-.header-inner .toggle-wrapper::before { background-color: #fff !important; width: 0.2rem; }
 
 /* Primary Menu ---------------------------- */
 .primary-menu a { text-decoration: none; }

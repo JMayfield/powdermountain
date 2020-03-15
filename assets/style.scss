@@ -58,6 +58,15 @@ Version:        1.0
 
 /* Primary Menu ---------------------------- */
 
+@media (min-width: 1000px) {
+  .header-inner {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 0;
+  }
+}
+
 .primary-menu > li > a {
 	color: #fff !important;
 }
@@ -85,6 +94,10 @@ Version:        1.0
 	fill: #fff;
 }
 
+.header-inner .toggle-wrapper::before {
+  background-color: #fff !important;
+  width: 0.2rem;
+}
 
 /* Powder Mountain Homepage ---------------- */
 
@@ -95,11 +108,6 @@ Version:        1.0
   .entry-content > .alignfull {
     margin-top: 0 !important;
   }
-}
-
-.header-inner .toggle-wrapper::before {
-  background-color: #fff !important;
-  width: 0.2rem;
 }
 
 
