@@ -23,10 +23,26 @@ Version:        1.0
 
 @media (max-width: 782px) { .admin-bar.overlay-header #site-header, .template-powder-mountain-homepage #site-header { top: 46px; } }
 
+/* Primary Menu ---------------------------- */
+.primary-menu > li > a { color: #fff !important; }
+
+.primary-menu .icon { color: #fff !important; }
+
+.primary-menu ul { background: #000 !important; }
+
+.primary-menu ul::after { border-bottom-color: #000 !important; }
+
+.sub-menu a { color: #fff !important; }
+
+/* Header Toggles ---------------------------- */
+.header-inner .toggle path { fill: #fff; }
+
 /* Powder Mountain Homepage ---------------- */
 .template-powder-mountain-homepage .post-inner { padding-top: 0 !important; }
 
 .template-powder-mountain-homepage .entry-content > .alignfull { margin-top: 0 !important; }
+
+.header-inner .toggle-wrapper::before { background-color: #fff !important; width: 0.2rem; }
 
 /* Primary Menu ---------------------------- */
 .primary-menu a { text-decoration: none; }
