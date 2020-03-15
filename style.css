@@ -23,6 +23,11 @@ Version:        1.0
 
 @media (max-width: 782px) { .admin-bar.overlay-header #site-header, .template-powder-mountain-homepage #site-header { top: 46px; } }
 
+/* Powder Mountain Homepage ---------------- */
+.template-powder-mountain-homepage .post-inner { padding-top: 0 !important; }
+
+.template-powder-mountain-homepage .entry-content > .alignfull { margin-top: 0 !important; }
+
 /* Primary Menu ---------------------------- */
 .primary-menu a { text-decoration: none; }
 
